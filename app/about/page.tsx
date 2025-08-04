@@ -6,22 +6,30 @@ export default function AboutPage() {
     <div className="flex min-h-screen flex-col">
       <SiteHeader />
       <main className="flex-1">
-        <section className="py-20">
-          <div className="container">
-            <h1 className="font-source-serif text-4xl font-bold mb-8">About PAVE IT</h1>
-            <div className="prose max-w-none">
-              <p className="text-lg text-muted-foreground mb-6">
-                PAVE IT is revolutionizing device management for international companies with employees in India. We specialize in rapid device procurement, seamless delivery, and comprehensive IT asset management.
-              </p>
-              <p className="text-lg text-muted-foreground mb-6">
-                Our mission is to eliminate the complexities of device management, allowing companies to focus on their core business while we handle all aspects of IT equipment logistics.
-              </p>
-              <p className="text-lg text-muted-foreground">
-                With our extensive network and streamlined processes, we ensure that your employees receive their devices on time, every time, anywhere in India.
-              </p>
-            </div>
+        {/* About PAVEIT */}
+        <section id="about-paveit" className="py-16 bg-white">
+          <div className="max-w-4xl mx-auto px-4 text-center">
+            <h2 className="text-3xl font-bold mb-4">About PAVEIT</h2>
+            <p className="mb-4">
+              PAVEIT is a global laptop fulfillment partner purpose-built for payroll and EOR platforms.
+            </p>
+            <p className="mb-4">
+              We specialize in delivering preloaded, ready-to-use laptops to remote hires across India, Singapore, the Philippines, Dubai, the US, UK, and Spain—
+              with SLA-backed timelines and zero customs hassle.
+            </p>
+            <p className="mb-4">
+              Our clients don't chase vendors or manage logistics.<br />
+              They send us a name—we handle the rest.
+            </p>
+            <p className="font-semibold mb-4">
+              One vendor. Seven countries. Remote IT, solved.
+            </p>
+            <p className="text-gray-600">
+              Trusted by leading global hiring platforms, PAVEIT is the invisible infrastructure behind smooth onboarding.
+            </p>
           </div>
         </section>
+        <hr className="my-16 border-gray-200" />
         
         <section id="enterprise-services" className="py-16 bg-gray-50">
           <div className="max-w-6xl mx-auto px-4">
